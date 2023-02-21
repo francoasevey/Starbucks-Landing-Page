@@ -206,7 +206,11 @@ header ul li a:hover{
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
-        filter: invert(11);
+        
+        z-index: 11;
+        background-color: rgb(0, 0, 0);
+        text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+        box-shadow:rgb(253, 253, 253) 0 0.0em 0.60em;
     }
     .toggle.active{
         position: fixed;
@@ -226,7 +230,7 @@ header ul li a:hover{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: #fff;
+        background: #000000;
         z-index: 10;
     }
     header ul li a{
@@ -266,5 +270,7 @@ header ul li a:hover{
         width: 50px;
         border-top-right-radius: 5px;
         border-bottom-left-radius: 5px;
+        border: 2px solid #000000;
+        box-shadow:rgb(253, 253, 253) 0 0.0em 0.60em;
     }
 }
